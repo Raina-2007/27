@@ -13,7 +13,7 @@ class Bob{
       display(){
         push();
         translate(this.body.position.x, this.body.position.y);
-        fill("pink")
+        fill("purple")
         ellipseMode(RADIUS);
         ellipse(this.body.position.x,this.body.position.y,50,50);
         pop();
