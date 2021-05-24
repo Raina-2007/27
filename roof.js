@@ -21,7 +21,7 @@ class roof
 			push()
 			translate(roofPos.x, roofPos.y);
 			rectMode(CENTER)
-			fill(0)
+			fill(240)
 			rect(0,0,this.w, this.h);
 			pop()
 
