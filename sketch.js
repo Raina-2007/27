@@ -18,14 +18,14 @@ function setup() {
 
 	engine = Engine.create();
 	world = engine.world;
-	bobDiameter = 40;
+	bobDiameter = 130;
 	//Create the Bodies Here.
-	bob1 = new Bob (500,200);
-	bob2 = new Bob (200,200);
-	bob3 = new Bob (100,200);
-	bob4 = new Bob (400,200);
-	bob5 = new Bob (600,200);
-	Roof = new roof(300,200,400,25);
+	bob1 = new Bob (380,300);
+	bob2 = new Bob (430,300);
+	bob3 = new Bob (230,300);
+	bob4 = new Bob (280,300);
+	bob5 = new Bob (330,300);
+	Roof = new roof(650,50,700,25);
 	rope1 = new rope(bob1.body,Roof.body,-bobDiameter*2,0);
 
 	Engine.run(engine);
