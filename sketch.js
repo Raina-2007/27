@@ -36,12 +36,12 @@ function draw() {
   //rectMode(CENTER);
   background(230);
   Roof.display();
-  rope1.display();
   bob1.display();
   bob2.display();
   bob3.display();
   bob4.display();
   bob5.display();
+  rope1.display();
   
   
   //drawSprites();
